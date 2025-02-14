@@ -1,0 +1,6 @@
+<Project>
+  <ItemGroup>
+    <CompilerVisibleProperty Include="DebugAnalyzer" />
+    <CompilerVisibleProperty Include="EnableAnalyzer" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>TestComponents</RootNamespace>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  
+  <!--Analyzer Config-->
+  <PropertyGroup>
+    <EnableAnalyzer>true</EnableAnalyzer>
+    <DebugAnalyzer>false</DebugAnalyzer>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Analyzer/Analyzer.csproj" PrivateAssets="all" ReferenceOutputAssembly="false" OutputItemType="Analyzer" />
+    <ProjectReference Include="..\Components\Components.csproj" />
+  </ItemGroup>
+</Project>
